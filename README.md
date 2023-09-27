@@ -25,6 +25,13 @@ docker build -t gear-tech-app .
 docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> gear-tech-app
 ```
 
+## Docker Compose
+
+```sh
+# Place the `.env` file in this directory and start the service
+docker compose up -d
+```
+
 ## Contributing
 
 If you have suggestions for how gear-tech-app could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
